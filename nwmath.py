@@ -12,3 +12,6 @@ def multiply(a, b):
 
 def divide(numerator, denominator):
     return float(numerator) / denominator
+
+def pow(a, b):
+        return a ** b
