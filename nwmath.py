@@ -11,7 +11,10 @@ def multiply(a, b):
     return a * b
 
 def divide(numerator, denominator):
-    return float(numerator) / denominator
+    if denominator!=0:
+        return float(numerator) / denominator
+    else:
+        return "error input"
 
 def pow(a, b):
         return a ** b
